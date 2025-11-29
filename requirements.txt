@@ -1,0 +1,14 @@
+# Sports Agent Requirements
+# Pure Python - No external dependencies required!
+# Requires Python 3.6 or higher
+
+# The Sports Agent uses only Python standard library:
+# - json (for data storage)
+# - os (for file operations)
+# - typing (for type hints)
+# - datetime (for timestamps)
+
+# Optional: For future enhancements
+# requests>=2.28.0  # For fetching live sports data
+# flask>=2.0.0      # For REST API server
+# fastapi>=0.100.0  # For modern async API

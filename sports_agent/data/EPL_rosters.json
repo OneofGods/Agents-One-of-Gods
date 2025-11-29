@@ -1,0 +1,46 @@
+{
+  "Manchester City": {
+    "team_name": "Manchester City",
+    "league": "EPL",
+    "roster": [
+      {
+        "name": "Erling Haaland",
+        "position": "FW",
+        "number": 9
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "position": "MF",
+        "number": 17
+      },
+      {
+        "name": "Ederson",
+        "position": "GK",
+        "number": 31
+      }
+    ],
+    "last_updated": "2025-11-29T21:40:15.197013"
+  },
+  "Arsenal": {
+    "team_name": "Arsenal",
+    "league": "EPL",
+    "roster": [
+      {
+        "name": "Bukayo Saka",
+        "position": "FW",
+        "number": 7
+      },
+      {
+        "name": "Martin Odegaard",
+        "position": "MF",
+        "number": 8
+      },
+      {
+        "name": "Gabriel Jesus",
+        "position": "FW",
+        "number": 9
+      }
+    ],
+    "last_updated": "2025-11-29T21:40:15.197226"
+  }
+}

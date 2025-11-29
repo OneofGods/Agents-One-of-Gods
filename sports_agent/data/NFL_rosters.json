@@ -1,0 +1,68 @@
+{
+  "Kansas City Chiefs": {
+    "team_name": "Kansas City Chiefs",
+    "league": "NFL",
+    "roster": [
+      {
+        "name": "Patrick Mahomes",
+        "position": "QB",
+        "number": 15
+      },
+      {
+        "name": "Travis Kelce",
+        "position": "TE",
+        "number": 87
+      },
+      {
+        "name": "Chris Jones",
+        "position": "DT",
+        "number": 95
+      }
+    ],
+    "last_updated": "2025-11-29T21:40:15.194540"
+  },
+  "San Francisco 49ers": {
+    "team_name": "San Francisco 49ers",
+    "league": "NFL",
+    "roster": [
+      {
+        "name": "Brock Purdy",
+        "position": "QB",
+        "number": 13
+      },
+      {
+        "name": "George Kittle",
+        "position": "TE",
+        "number": 85
+      },
+      {
+        "name": "Nick Bosa",
+        "position": "DE",
+        "number": 97
+      }
+    ],
+    "last_updated": "2025-11-29T21:40:15.194904"
+  },
+  "Dallas Cowboys": {
+    "team_name": "Dallas Cowboys",
+    "league": "NFL",
+    "roster": [
+      {
+        "name": "Dak Prescott",
+        "position": "QB",
+        "number": 4
+      },
+      {
+        "name": "CeeDee Lamb",
+        "position": "WR",
+        "number": 88
+      },
+      {
+        "name": "Micah Parsons",
+        "position": "LB",
+        "number": 11
+      }
+    ],
+    "last_updated": "2025-11-29T21:40:15.195151"
+  }
+}

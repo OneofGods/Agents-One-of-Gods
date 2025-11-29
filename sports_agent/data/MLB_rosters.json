@@ -1,0 +1,46 @@
+{
+  "New York Yankees": {
+    "team_name": "New York Yankees",
+    "league": "MLB",
+    "roster": [
+      {
+        "name": "Aaron Judge",
+        "position": "OF",
+        "number": 99
+      },
+      {
+        "name": "Gerrit Cole",
+        "position": "P",
+        "number": 45
+      },
+      {
+        "name": "Anthony Volpe",
+        "position": "SS",
+        "number": 11
+      }
+    ],
+    "last_updated": "2025-11-29T21:40:15.196109"
+  },
+  "Los Angeles Dodgers": {
+    "team_name": "Los Angeles Dodgers",
+    "league": "MLB",
+    "roster": [
+      {
+        "name": "Mookie Betts",
+        "position": "OF",
+        "number": 50
+      },
+      {
+        "name": "Freddie Freeman",
+        "position": "1B",
+        "number": 5
+      },
+      {
+        "name": "Clayton Kershaw",
+        "position": "P",
+        "number": 22
+      }
+    ],
+    "last_updated": "2025-11-29T21:40:15.196340"
+  }
+}

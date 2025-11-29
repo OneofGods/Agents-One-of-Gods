@@ -1,0 +1,46 @@
+{
+  "Vegas Golden Knights": {
+    "team_name": "Vegas Golden Knights",
+    "league": "NHL",
+    "roster": [
+      {
+        "name": "Jack Eichel",
+        "position": "C",
+        "number": 9
+      },
+      {
+        "name": "Mark Stone",
+        "position": "RW",
+        "number": 61
+      },
+      {
+        "name": "Adin Hill",
+        "position": "G",
+        "number": 33
+      }
+    ],
+    "last_updated": "2025-11-29T21:40:15.196565"
+  },
+  "Toronto Maple Leafs": {
+    "team_name": "Toronto Maple Leafs",
+    "league": "NHL",
+    "roster": [
+      {
+        "name": "Auston Matthews",
+        "position": "C",
+        "number": 34
+      },
+      {
+        "name": "Mitch Marner",
+        "position": "RW",
+        "number": 16
+      },
+      {
+        "name": "William Nylander",
+        "position": "RW",
+        "number": 88
+      }
+    ],
+    "last_updated": "2025-11-29T21:40:15.196797"
+  }
+}
