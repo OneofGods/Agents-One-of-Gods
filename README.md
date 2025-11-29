@@ -12,6 +12,11 @@ Loly can call this agent at will to get any roster information instantly.
 **Trade ETH on Drift Protocol - NO CENTRALIZED EXCHANGES!**
 Loly can trade ETH with leverage, add liquidity, and manage positions on Solana's premier DEX.
 
+## 📈 Stock Trader Agent - Trade Major Stocks
+
+**Trade stocks from major markets - AAPL, TSLA, NVDA, and more!**
+Loly can buy/sell stocks, track portfolios, and manage positions with real-time P&L.
+
 ---
 
 # 🏆 Sports Agent
@@ -276,8 +281,18 @@ Agents-One-of-Gods/
 │       ├── drift_positions.json
 │       ├── drift_balances.json
 │       └── ... (auto-generated)
+├── stock_trader/              # Stock trading
+│   ├── __init__.py
+│   ├── stock_trader.py       # Core stock trader
+│   ├── api/
+│   │   └── loly_api.py       # Trading API
+│   └── data/
+│       ├── portfolios.json
+│       ├── orders.json
+│       └── balances.json
 ├── loly_demo.py              # Sports agent demo
 ├── drift_demo.py             # Drift trading demo
+├── stock_demo.py             # Stock trading demo
 ├── test_sports_agent.py      # Sports tests
 ├── index.html
 └── README.md
@@ -294,6 +309,82 @@ python loly_demo.py
 
 # Drift Protocol Crypto Agent
 python drift_demo.py
+
+# Stock Trader Agent
+python stock_demo.py
 ```
+
+---
+
+# 📈 Stock Trader Agent
+
+## Trade Stocks from Major Markets
+
+**Buy and sell stocks like a pro!**
+
+### 🚀 Quick Start
+
+```bash
+python stock_demo.py
+```
+
+### 📖 How Loly Trades Stocks
+
+```python
+from stock_trader.api import loly_api
+
+# Create trading account
+loly_api.create_account("Loly", initial_cash=100000)
+
+# Check stock price
+aapl_price = loly_api.get_price('AAPL')
+
+# Buy stocks
+loly_api.buy("Loly", "AAPL", shares=50)
+loly_api.buy("Loly", "TSLA", shares=20)
+loly_api.buy("Loly", "NVDA", shares=10)
+
+# Check portfolio
+portfolio = loly_api.get_portfolio("Loly")
+
+# Sell stocks
+loly_api.sell("Loly", "TSLA", shares=10)
+
+# View order history
+orders = loly_api.get_order_history("Loly")
+```
+
+### 🎯 Stock Trader Features
+
+✅ **28+ Major Stocks** - AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA, and more
+✅ **Buy/Sell Orders** - Simple market orders
+✅ **Portfolio Tracking** - Real-time P&L tracking
+✅ **Order History** - Complete transaction records
+✅ **Market Data** - Live stock prices and info
+✅ **Sector Analysis** - Technology, Finance, Healthcare, and more
+
+### 📊 Available Stocks
+
+**Technology:** AAPL, MSFT, GOOGL, META, NVDA
+**Automotive:** TSLA
+**Finance:** JPM, BAC, GS, V, MA
+**Consumer:** AMZN, NKE, SBUX, MCD, KO, PG
+**Healthcare:** JNJ, UNH, PFE, LLY
+**Entertainment:** DIS, NFLX, SPOT
+**Energy:** XOM, CVX
+**Retail:** WMT, HD
+
+### 💡 Stock Trader API Reference
+
+| Method | Description |
+|--------|-------------|
+| `create_account(user_id, initial_cash)` | Create trading account |
+| `get_balance(user_id)` | Get account balance |
+| `buy(user_id, symbol, shares)` | Buy stock |
+| `sell(user_id, symbol, shares)` | Sell stock |
+| `get_portfolio(user_id)` | Get portfolio with P&L |
+| `get_order_history(user_id)` | Get order history |
+| `get_stock_info(symbol)` | Get stock information |
+| `get_market_summary()` | Get market overview |
 
 **Happy Days!! Yippie Kay Yay!! 🎊**

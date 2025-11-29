@@ -1,0 +1,52 @@
+{
+  "Loly": {
+    "user_id": "Loly",
+    "holdings": {
+      "AAPL": {
+        "symbol": "AAPL",
+        "shares": 50,
+        "avg_price": 178.5,
+        "purchased_at": "2025-11-29T22:27:03.420825",
+        "current_price": 178.5,
+        "current_value": 8925.0,
+        "cost_basis": 8925.0,
+        "profit_loss": 0.0,
+        "profit_loss_pct": 0.0
+      },
+      "TSLA": {
+        "symbol": "TSLA",
+        "shares": 10,
+        "avg_price": 242.8,
+        "purchased_at": "2025-11-29T22:27:03.421759",
+        "current_price": 242.8,
+        "current_value": 4856.0,
+        "cost_basis": 4856.0,
+        "profit_loss": 0.0,
+        "profit_loss_pct": 0.0
+      },
+      "NVDA": {
+        "symbol": "NVDA",
+        "shares": 10,
+        "avg_price": 495.2,
+        "purchased_at": "2025-11-29T22:27:03.422617",
+        "current_price": 495.2,
+        "current_value": 4952.0,
+        "cost_basis": 4952.0,
+        "profit_loss": 0.0,
+        "profit_loss_pct": 0.0
+      },
+      "MSFT": {
+        "symbol": "MSFT",
+        "shares": 15,
+        "avg_price": 378.9,
+        "purchased_at": "2025-11-29T22:27:03.423559",
+        "current_price": 378.9,
+        "current_value": 5683.5,
+        "cost_basis": 5683.5,
+        "profit_loss": 0.0,
+        "profit_loss_pct": 0.0
+      }
+    },
+    "created_at": "2025-11-29T22:27:03.420394"
+  }
+}

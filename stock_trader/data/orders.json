@@ -1,0 +1,54 @@
+{
+  "Loly": [
+    {
+      "order_id": "order_1764455223.420829_5442",
+      "type": "buy",
+      "symbol": "AAPL",
+      "shares": 50,
+      "price": 178.5,
+      "total": 8925.0,
+      "fee": 8.925,
+      "timestamp": "2025-11-29T22:27:03.420858"
+    },
+    {
+      "order_id": "order_1764455223.421762_4713",
+      "type": "buy",
+      "symbol": "TSLA",
+      "shares": 20,
+      "price": 242.8,
+      "total": 4856.0,
+      "fee": 4.856,
+      "timestamp": "2025-11-29T22:27:03.421770"
+    },
+    {
+      "order_id": "order_1764455223.422621_3395",
+      "type": "buy",
+      "symbol": "NVDA",
+      "shares": 10,
+      "price": 495.2,
+      "total": 4952.0,
+      "fee": 4.952,
+      "timestamp": "2025-11-29T22:27:03.422628"
+    },
+    {
+      "order_id": "order_1764455223.423562_2349",
+      "type": "buy",
+      "symbol": "MSFT",
+      "shares": 15,
+      "price": 378.9,
+      "total": 5683.5,
+      "fee": 5.6835,
+      "timestamp": "2025-11-29T22:27:03.423567"
+    },
+    {
+      "order_id": "order_1764455223.425278_9242",
+      "type": "sell",
+      "symbol": "TSLA",
+      "shares": 10,
+      "price": 242.8,
+      "total": 2428.0,
+      "fee": 2.428,
+      "timestamp": "2025-11-29T22:27:03.425286"
+    }
+  ]
+}
