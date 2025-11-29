@@ -1,13 +1,22 @@
 # Agents One of Gods ⚡
 
-## Sports Agent - Complete Roster Management System
+**Powerful AI agents that Loly can call at will!**
+
+## 🏆 Sports Agent - Complete Roster Management System
 
 **The Sports Agent controls ALL rosters across ALL major sports leagues!**
 Loly can call this agent at will to get any roster information instantly.
 
+## 💎 Drift Crypto Agent - ETH Trading on Solana DEX
+
+**Trade ETH on Drift Protocol - NO CENTRALIZED EXCHANGES!**
+Loly can trade ETH with leverage, add liquidity, and manage positions on Solana's premier DEX.
+
 ---
 
-## 🏆 Supported Leagues
+# 🏆 Sports Agent
+
+## Supported Leagues
 
 ### American Sports
 - **NFL** - National Football League (32 teams)
@@ -174,6 +183,117 @@ The Sports Agent is ready for Loly to call at will!
 **Try it out:**
 ```bash
 python loly_demo.py
+```
+
+**Happy Days!! Yippie Kay Yay!! 🎊**
+
+---
+
+# 💎 Drift Crypto Agent
+
+## ETH Trading on Solana's Drift Protocol
+
+**NO CENTRALIZED EXCHANGES - Pure DeFi Power!**
+
+### 🚀 Quick Start
+
+```bash
+python drift_demo.py
+```
+
+### 📖 How Loly Trades on Drift
+
+```python
+from crypto_agent.api import loly_api
+
+# Create Drift account
+loly_api.create_account("Loly", initial_usdc=10000)
+
+# Check ETH price
+eth_price = loly_api.get_price('ETH')
+
+# Buy ETH (spot)
+loly_api.buy_eth("Loly", amount=2.0, market="ETH-SPOT")
+
+# Open leveraged position
+loly_api.buy_eth("Loly", amount=1.5, leverage=5, market="ETH-PERP")
+
+# Check positions
+positions = loly_api.get_all_positions("Loly")
+
+# Add liquidity
+loly_api.add_liquidity("Loly", "ETH-SPOT", usdc_amount=1000, eth_amount=0.5)
+
+# Close position
+loly_api.close_position("Loly", "ETH-PERP")
+```
+
+### 🎯 Drift Features
+
+✅ **Spot Trading** - Buy and sell ETH directly
+✅ **Perpetual Futures** - Trade with up to 20x leverage
+✅ **Liquidity Pools** - Add liquidity and earn APY
+✅ **Position Management** - Track PnL in real-time
+✅ **Trade History** - Complete transaction records
+✅ **100% DeFi** - Runs on Solana, no CEX needed!
+
+### 💡 Drift API Reference
+
+| Method | Description |
+|--------|-------------|
+| `create_account(user_id, initial_usdc)` | Create Drift account with USDC |
+| `get_balance(user_id)` | Get account balances |
+| `buy_eth(user_id, amount, leverage, market)` | Buy ETH (spot or perp) |
+| `sell_eth(user_id, amount, leverage, market)` | Sell ETH (spot or perp) |
+| `get_position(user_id, market)` | Get position with PnL |
+| `get_all_positions(user_id)` | Get all open positions |
+| `close_position(user_id, market)` | Close a position |
+| `add_liquidity(user_id, market, usdc, eth)` | Add liquidity to pool |
+| `get_trade_history(user_id)` | Get trade history |
+| `get_drift_stats()` | Get protocol statistics |
+
+---
+
+## 🗂️ Complete Project Structure
+
+```
+Agents-One-of-Gods/
+├── sports_agent/              # Sports roster management
+│   ├── __init__.py
+│   ├── sports_agent.py
+│   ├── sample_data.py
+│   ├── api/
+│   │   └── loly_api.py
+│   └── data/
+│       ├── NFL_rosters.json
+│       └── ... (auto-generated)
+├── crypto_agent/              # Drift Protocol trading
+│   ├── __init__.py
+│   ├── drift_agent.py        # Core Drift agent
+│   ├── api/
+│   │   └── loly_api.py       # Trading API
+│   └── data/
+│       ├── drift_positions.json
+│       ├── drift_balances.json
+│       └── ... (auto-generated)
+├── loly_demo.py              # Sports agent demo
+├── drift_demo.py             # Drift trading demo
+├── test_sports_agent.py      # Sports tests
+├── index.html
+└── README.md
+```
+
+---
+
+## 🎉 Ready to Roll!
+
+**Try the demos:**
+```bash
+# Sports Agent
+python loly_demo.py
+
+# Drift Protocol Crypto Agent
+python drift_demo.py
 ```
 
 **Happy Days!! Yippie Kay Yay!! 🎊**

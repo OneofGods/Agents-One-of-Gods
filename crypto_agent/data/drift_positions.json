@@ -1,0 +1,14 @@
+{
+  "Loly_ETH-PERP": {
+    "position_id": "Loly_ETH-PERP",
+    "user_id": "Loly",
+    "market": "ETH-PERP",
+    "size": 0,
+    "entry_price": 2280.75,
+    "leverage": 5,
+    "unrealized_pnl": 0.0,
+    "opened_at": "2025-11-29T22:21:37.570926",
+    "current_price": 2280.75,
+    "unrealized_pnl_pct": 0.0
+  }
+}
