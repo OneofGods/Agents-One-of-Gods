@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-11-29T22:37:49.757980",
+    "error_type": "KeyError",
+    "error_message": "'non_existent_key'",
+    "context": {
+      "agent": "test",
+      "operation": "dict_access"
+    },
+    "stack_trace": "Traceback (most recent call last):\n  File \"/home/user/Agents-One-of-Gods/troubleshooter_demo.py\", line 60, in demo_troubleshooter\n    _ = test_dict['non_existent_key']\n        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\nKeyError: 'non_existent_key'\n",
+    "severity": "medium",
+    "solutions": [
+      "Key ''non_existent_key'' not found in dictionary",
+      "Use .get() method with default value instead of direct access",
+      "Validate dictionary keys before access",
+      "Check if data structure matches expected format"
+    ],
+    "prevention": [
+      "Use type hints and validation",
+      "Implement schema validation for data",
+      "Add defensive checks for optional keys"
+    ]
+  }
+]

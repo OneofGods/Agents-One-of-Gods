@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-11-29T22:37:49.767959",
+  "overall_status": "healthy",
+  "agents": {
+    "sports": {
+      "agent": "sports",
+      "status": "healthy",
+      "checks": {
+        "import": "pass",
+        "data_dir": "pass",
+        "data_files": 5,
+        "api": "pass",
+        "instantiation": "pass",
+        "api_methods": 13
+      }
+    },
+    "crypto": {
+      "agent": "crypto",
+      "status": "healthy",
+      "checks": {
+        "import": "pass",
+        "data_dir": "pass",
+        "data_files": 4,
+        "api": "pass",
+        "instantiation": "pass",
+        "api_methods": 18
+      }
+    },
+    "stocks": {
+      "agent": "stocks",
+      "status": "healthy",
+      "checks": {
+        "import": "pass",
+        "data_dir": "pass",
+        "data_files": 3,
+        "api": "pass",
+        "instantiation": "pass",
+        "api_methods": 14
+      }
+    }
+  },
+  "issues": [],
+  "warnings": []
+}

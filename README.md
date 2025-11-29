@@ -17,6 +17,11 @@ Loly can trade ETH with leverage, add liquidity, and manage positions on Solana'
 **Trade stocks from major markets - AAPL, TSLA, NVDA, and more!**
 Loly can buy/sell stocks, track portfolios, and manage positions with real-time P&L.
 
+## 🧠 Troubleshooter Agent - The Brain
+
+**THE BOSS AGENT - Monitors, diagnoses, and optimizes ALL agents!**
+Enterprise-grade troubleshooting keeps Loly healthy, secure, and optimized.
+
 ---
 
 # 🏆 Sports Agent
@@ -290,9 +295,19 @@ Agents-One-of-Gods/
 │       ├── portfolios.json
 │       ├── orders.json
 │       └── balances.json
+├── troubleshooter/            # THE BRAIN - System monitoring
+│   ├── __init__.py
+│   ├── troubleshooter.py     # Core troubleshooter
+│   ├── api/
+│   │   └── loly_api.py       # Diagnostic API
+│   └── data/
+│       ├── health_status.json
+│       ├── error_log.json
+│       └── recommendations.json
 ├── loly_demo.py              # Sports agent demo
 ├── drift_demo.py             # Drift trading demo
 ├── stock_demo.py             # Stock trading demo
+├── troubleshooter_demo.py    # Troubleshooter demo
 ├── test_sports_agent.py      # Sports tests
 ├── index.html
 └── README.md
@@ -312,6 +327,9 @@ python drift_demo.py
 
 # Stock Trader Agent
 python stock_demo.py
+
+# Troubleshooter Agent - THE BRAIN
+python troubleshooter_demo.py
 ```
 
 ---
@@ -386,5 +404,109 @@ orders = loly_api.get_order_history("Loly")
 | `get_order_history(user_id)` | Get order history |
 | `get_stock_info(symbol)` | Get stock information |
 | `get_market_summary()` | Get market overview |
+
+---
+
+# 🧠 Troubleshooter Agent - THE BRAIN
+
+## Enterprise-Grade System Monitoring & Diagnostics
+
+**THE MOST IMPORTANT AGENT - Keeps Loly healthy and strong!**
+
+### 🚀 Quick Start
+
+```bash
+python troubleshooter_demo.py
+```
+
+### 📖 How Loly Uses The Brain
+
+```python
+from troubleshooter.api import loly_api
+
+# Quick status check
+status = loly_api.quick_status()
+
+# Full health check of all agents
+health = loly_api.health_check()
+
+# Diagnose an error
+try:
+    # ... some code ...
+except Exception as e:
+    diagnosis = loly_api.diagnose_error(e, context={'agent': 'sports'})
+
+# Analyze code quality
+code_report = loly_api.analyze_code('sports_agent/sports_agent.py')
+
+# Security scan
+security = loly_api.security_scan('crypto_agent/drift_agent.py')
+
+# Performance profile
+performance = loly_api.profile_performance('stocks')
+
+# Strategic recommendations
+recommendations = loly_api.get_recommendations()
+
+# Complete system report
+full_report = loly_api.full_report()
+```
+
+### 🎯 Troubleshooter Capabilities
+
+✅ **System Health Monitoring** - Real-time status of all agents
+✅ **Error Detection & Diagnosis** - Detailed error analysis with solutions
+✅ **Code Quality Analysis** - Automated code review and metrics
+✅ **Security Scanning** - Detect vulnerabilities and risks
+✅ **Performance Profiling** - Identify bottlenecks and optimize
+✅ **Data Integrity Validation** - Verify data consistency
+✅ **Strategic Recommendations** - High-level improvement advice
+✅ **Error Logging** - Complete audit trail
+✅ **Auto-Healing** - Automatically fix common issues
+
+### 💡 What It Monitors
+
+**Health Checks:**
+- Module imports and availability
+- Data directory integrity
+- API functionality
+- Agent instantiation
+- Method availability
+
+**Code Analysis:**
+- Lines of code
+- Function and class counts
+- Docstring coverage
+- Code complexity
+- Magic numbers
+- Quality scoring
+
+**Security:**
+- Hardcoded credentials
+- SQL injection risks
+- Unsafe eval() usage
+- Dangerous deserialization
+- Common vulnerabilities
+
+**Performance:**
+- Data file sizes
+- Code complexity
+- Loading bottlenecks
+- Optimization opportunities
+
+### 📊 Troubleshooter API Reference
+
+| Method | Description |
+|--------|-------------|
+| `health_check()` | Complete health check of all agents |
+| `quick_status()` | Get quick status summary |
+| `diagnose_error(error, context)` | Diagnose error with solutions |
+| `analyze_code(file_path)` | Analyze code quality |
+| `security_scan(file_path)` | Scan for vulnerabilities |
+| `profile_performance(agent)` | Profile agent performance |
+| `get_recommendations()` | Get strategic recommendations |
+| `full_report()` | Generate complete system report |
+| `check_agent(agent_name)` | Check specific agent health |
+| `get_error_log(limit)` | Get recent error log |
 
 **Happy Days!! Yippie Kay Yay!! 🎊**
